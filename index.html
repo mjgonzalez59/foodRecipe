@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipes App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e8fdfe1c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="text" id="search-term" />
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </header>
+      <div class="favorite-container">
+        <h3>Favorite Meals</h3>
+        <ol class="favorite-meals" id="favorite-meals">
+          <!-- <li>
+          <img src="https://www.themealdb.com//images//media//meals//1529444113.jpg" alt="">
+          <span>General Tso's Chicken</span>
+        </li>
+        <li class="clear">
+          <img src="https://www.themealdb.com//images//media//meals//wtsvxx1511296896.jpg" alt="">
+          <span>Lasagne</span>
+        </li> -->
+        </ol>
+      </div>
+      <div class="meals" id="meals">
+        <!-- <span class="random">
+        Random Recipe
+      </span>
+      <div class="meal">
+        <div class="meal-header">
+          <img src="https://www.themealdb.com//images//media//meals//y4jpgq1560459207.jpg" alt="">
+        </div>
+        <div class="meal-body">
+          <h4>Veggies</h4>
+          <button class="favorite-btn">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+        </div>
+      </div> -->
+      </div>
+    </div>
+    <div class="popup-container hidden" id="popup-meal">
+      <div class="popup">
+        <button class="popup-close" id="popup-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="meal-info" id="meal-info">
+          <!-- Here will be use JS to fetch the Info -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
